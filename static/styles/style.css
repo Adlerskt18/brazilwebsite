@@ -98,6 +98,17 @@ hr {
     
 }
 
+#message {
+    padding: 0;
+    position: absolute;
+    bottom: 39%;
+    right: 45%;
+    font-size: 1rem;
+    font-weight: normal;
+    color: red;
+    opacity: 50%;
+}
+
 #about-description {
     font-weight: normal;
     position: absolute;
