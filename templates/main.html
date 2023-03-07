@@ -22,6 +22,12 @@
     {% block content %}
 
     {% endblock content %}
+    
+    {% if messages %}
+        {% for message in messages %}
+            <h1 id="message">Please type a valid team name</h1>
+        {% endfor %}
+    {% endif %}
 
     <!-- Rodapé -->
     <a href="https://github.com/Adlerskt18" style="color:#7CBD1E; text-decoration: none;">
