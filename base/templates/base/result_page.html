@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<div class="result-text">
+    {% if result > 60 %}
+        <h1 id="results-text-top">Probably yes!</h1><h1 id="results-text">Brazil has a {{result}}% chance of</h1><h1 id="results-text">winning the match.</h1>
+    {% elif result < 40 %}
+        <h1 id="results-text-top">Probably not!</h1><h1 id="results-text">Brazil has a {{result}}% chance of</h1><h1 id="results-text">winning the match.</h1>
+    {% elif result > 40 and result < 60 %}
+        <h1 id="results-text-top">Maybe...</h1><h1 id="results-text">Brazil has a {{result}}% chance of</h1><h1 id="results-text">winning the match.</h1>
+    {% endif %}
+</div>
+
+<div class="try-button">
+    <a href="{% url 'index' %}">
+    <button type="button" class="btn btn-outline-success btn-lg">Search again</button>
+    </a>
+</div>
+
+{% endblock content %}

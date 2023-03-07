@@ -1,0 +1,143 @@
+body {
+    background-color: #f8e751;
+    font-family: 'Futura PT', sans-serif;
+}
+
+h1 {
+    color: #7CBD1E;
+}
+
+footer {
+    position: absolute;
+    bottom: 7%;
+    left: 49.2%;
+    opacity: 80%;
+    color: #7CBD1E;
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+    position: relative;
+    top: 12.5rem;
+    left: 22.9rem;
+    opacity: 30%;
+    width: 12rem;
+    background-color: #7CBD1E;
+    height: 3px;
+    border-width: 0;
+}
+
+.nav-link {
+    color: #7CBD1E;
+    position: absolute;
+    left: 112rem;
+    top: 1rem;
+    font-size: 1.2rem;
+}
+
+.form-inline {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 6.2rem;
+    position: absolute;
+    top: 52%;
+    background-color: #FDFDBD;
+}
+
+.form-control {
+    background-color: transparent;
+    font-size: large;
+    height: 1.4rem;
+    position: relative;
+    text-align: center;
+    opacity: 60%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.middle-text {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.result-text {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.try-button {
+    position: absolute;
+    top: 65%;
+    left: 46.5%;
+}
+
+.btn-outline-success:hover{
+    color: #f8e751;
+}
+
+#about-text {
+    color: #7CBD1E;
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#about-description {
+    font-weight: normal;
+    position: absolute;
+    top: 40%;
+    left: 32.3%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+    text-align: left;
+    text-align: justify;
+    color: #7CBD1E;
+
+}
+
+#results-text {
+    margin: 0%;
+    font-size: 3rem;
+}
+
+#results-text-top {
+    margin: 0%;
+    font-size: 7rem;
+    padding-bottom: 5rem;
+}
+
+#base-text {
+    font-size: 3rem;
+    margin: 0%;
+}
+
+#brazil-text {
+    font-size: 8.5rem;
+    margin: 0%;
+    font-family: 'g Guelo', sans-serif;
+    text-shadow: 2px 2px #fef600, 4px 4px #7CBD1E;
+}
+
+#player {
+    position: absolute;
+    left: 73.5rem;
+    bottom: 1rem;
+    opacity: 20%;
+}

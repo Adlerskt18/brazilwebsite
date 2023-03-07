@@ -1,0 +1,17 @@
+{% extends 'main.html' %}
+
+{% block content %}
+
+<!-- Caixa de pesquisa -->
+<div class="d-flex justify-content-center">
+    <form action="{% url 'result' %}" class="form-inline d-flex justify-content-center md-form form-sm p-1 shadow p-3" method="GET">
+        <input name="q" class="form-control border-0" type="text" placeholder="Name of the opposing team" aria-label="Search">
+    </form>
+</div>
+
+<!-- Texto principal -->
+<div class="middle-text">
+    <h1 id="base-text">is</h1><h1 id="brazil-text">Brazil</h1><h1 id="base-text">going to win?</h1>
+</div>
+
+{% endblock content %}
